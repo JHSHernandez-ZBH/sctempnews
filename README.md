@@ -1,2 +1,0 @@
-# sctempnews
-temporary
