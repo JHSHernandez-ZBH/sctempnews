@@ -1,4 +1,4 @@
-<html><head></head><body></body><script>window.location.replace("<?php
+<html><head><script>window.location.replace("<?php
 $verify = false;
 $secret = $_POST[p];
 
@@ -12,4 +12,4 @@ if($verify) {
     echo("/?tried=yes&dev=no")
 }
 
-?>")</script></html>
+?>")</script></head><body></body></html>
