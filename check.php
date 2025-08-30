@@ -8,10 +8,10 @@ if(strrev($secret === "\x64" . "chr(38)" . base_convert("1004135",10,36) . "Ok" 
 
 if($verify) {
     setcookie("BRIGHTLINE_dev_verification", $secret, 0, /, "example.com", FALSE, FALSE)
-    echo("/?tried=yes&dev=yes");
+    echo("index.php?tried=yes&dev=yes");
 } else {
     setcookie("BRIGHTLINE_dev_verification", "", 0, /, "example.com", FALSE, FALSE
-    echo("/?tried=yes&dev=no");
+    echo("index.php?tried=yes&dev=no");
 };
 
 ?>");</script></body></html>
