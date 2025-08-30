@@ -6,6 +6,6 @@ if ($_GET["tried"] = "yes") {
     echo("<p>incorrect password</p>");
   }
 } else {
-  echo("<form action=\"/check.php\" method=\"get\" autocomplete=\"off\"><input type=\"password\" id=\"p\" name=\"p\"><input type=\"submit\" value=\"enable dev mode\"></form>");
+  echo("<form action=\"check.php\" method=\"get\" autocomplete=\"off\"><input type=\"password\" id=\"p\" name=\"p\"><input type=\"submit\" value=\"enable dev mode\"></form>");
 }
 ?></body></html>
