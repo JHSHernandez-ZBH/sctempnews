@@ -12,4 +12,4 @@ if($verify) {
     echo("/?tried=yes&dev=no")
 }
 
-?>")</script></body></html>
+?>");</script></body></html>
