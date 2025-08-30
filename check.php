@@ -1,6 +1,6 @@
 <html><head><title>check</title></head><body><script>window.location.replace("<?php
 $verify = false;
-$secret = $_POST[p];
+$secret = $_GET[p];
 
 if(strrev($secret === "\x64" . "chr(38)" . base_convert("1004135",10,36) . "Ok" . chr(ord(strtolower(strrev(" I DO NOT KNOW ABOUT THIS")))) . "\x6f\x6e\x75\x73\x4f'\153\101" )) {
     $verify = true;
