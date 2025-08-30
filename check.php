@@ -1,4 +1,4 @@
-<html><script>window.location.replace("<?php
+<html><head></head><body></body><script>window.location.replace("<?php
 $verify = false;
 $secret = $_POST[p];
 
